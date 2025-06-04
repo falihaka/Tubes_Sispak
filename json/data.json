@@ -1,0 +1,389 @@
+{
+    "kota": [
+      {
+        "nama": "Kabupaten Bangkalan",
+        "bupati": "R. Abdul Latif Amin Imron",
+        "dinas": "Dinas Lingkungan Hidup Kab. Bangkalan",
+        "link": "Tidak ada link",
+        "luaswilayah": "1.001,44 KM",
+        "kecamatan": "18 Kecamatan",
+        "deskripsi": "Kabupaten Bangkalan merupakan salah satu kabupaten yang berada di Pulau Madura. Bangkalan sering juga disebut sebagai Surabaya Utara",
+        "gambar": "../img/bangkalan.png"
+      },
+      {
+        "nama": "Kabupaten Banyuwangi",
+        "bupati": "Hj. Ipuk Fiestiandani, S.Pd.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Banyuwangi",
+        "link": " https://dlh.banyuwangikab.go.id",
+        "luaswilayah": "5.782,40 KM",
+        "kecamatan": "25 Kecamatan",
+        "deskripsi": "Kabupaten Banyuwangi merupakan kabupaten terluas di Jawa Timur sekaligus menjadi yang terluas di Pulau Jawa, dengan luas wilayahnya yang mencapai 5.782,50 km²",
+        "gambar": "../img/banyuwangi.png"
+    },
+    {
+        "nama": "Kabupaten Blitar",
+        "bupati": "Rini Syarifah",
+        "dinas": "Dinas Lingkungan Hidup Kab. Blitar",
+        "link": "https://dlh.blitarkab.go.id/",
+        "luaswilayah": "1.336,48 KM",
+        "kecamatan": "22 Kecamatan",
+        "deskripsi": " Ibu kota kabupaten ini berada di kecamatan Kanigoro setelah sebelumnya satu wilayah dengan Kota Blitar",
+        "gambar": "../img/blitar.png"
+      },
+    {
+        "nama": "Kabupaten Bojonegoro",
+        "bupati": "Dr. Hj. Anna Mu'awanah, M.H.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Bojonegoro",
+        "link": "https://dlh.bojonegorokab.go.id/",
+        "luaswilayah": "2.198,79 KM",
+        "kecamatan": "28 Kecamatan",
+        "deskripsi": " Sama halnya dengan kabupaten atau kota lain di Jawa Timur, Bojonegoro juga mempunyai julukan daerah yang terkenal di masyarakat. Julukan ini mencerminkan ciri dari daerah tersebut. Bojonegoro sering dijuluki sebagai Kota Ledre, Kota Jati, atau Kota Tayub",
+        "gambar": "../img/bojonegoro.png"
+      },
+    {
+        "nama": "Kabupaten Bondowoso",
+        "bupati": "Dr. Hj. Anna Mu'awanah, M.H.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Bondowoso",
+        "link": "https://dlhp.bondowosokab.go.id/",
+        "luaswilayah": "1.525,97 KM",
+        "kecamatan": "23 Kecamatan",
+        "deskripsi": "Kabupaten Bondowoso adalah salah satu kabupaten dalam Provinsi Jawa Timur yang terletak di sebelah timur Pulau Jawa. Ibukotanya adalah Bondowoso",
+        "gambar": "../img/bondowoso.png"
+      },
+    {
+        "nama": "Kabupaten Gresik",
+        "bupati": "H. Fandi Akhmad Yani, S.E.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Gresik",
+        "link": "https://dlh.gresikkab.go.id/",
+        "luaswilayah": "1.191,25 KM",
+        "kecamatan": "18 Kecamatan",
+        "deskripsi": "Lokasi Kabupaten Gresik terletak di sebelah barat laut Kota Surabaya yang merupakan ibu kota Provinsi Jawa Timur. Ibu kota Kabupaten Gresik berada 20 km sebelah utara Kota Surabaya",
+        "gambar": "../img/gresik.png"
+      },
+    {
+        "nama": "Kabupaten Jember",
+        "bupati": "Ir. H. Hendy Siswanto ",
+        "dinas": "Dinas Lingkungan Hidup Kab. Jember",
+        "link": "http://dlh.jemberkab.go.id/",
+        "luaswilayah": "3.092,34 KM",
+        "kecamatan": "31 Kecamatan",
+        "deskripsi": "Lokasi Kabupaten Gresik terletak di sebelah barat laut Kota Surabaya yang merupakan ibu kota Provinsi Jawa Timur. Ibu kota Kabupaten Gresik berada 20 km sebelah utara Kota Surabaya",
+        "gambar": "../img/jember.png"
+      },
+    {
+        "nama": "Kabupaten Jombang",
+        "bupati": "Hj. Mundjidah Wahab",
+        "dinas": "Dinas Lingkungan Hidup Kab. jombang",
+        "link": "https://dlh.jombangkab.go.id",
+        "luaswilayah": "1.115,09 KM",
+        "kecamatan": "21 Kecamatan",
+        "deskripsi": "Jombang mendapatkan julukan sebagai Kota Santri karena banyaknya pondok pesantren di kabupaten di Jawa Timur itu. Di Kabupaten Jombang, terdapat ratusan pondok pesantren",
+        "gambar": "../img/jombang.png"
+      },
+    {
+        "nama": "Kabupaten Kediri",
+        "bupati": "Hanindhito Himawan Pramana, S.H.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Kediri",
+        "link": "http://dlh.kedirikab.go.id/",
+        "luaswilayah": "1.386,05 KM",
+        "kecamatan": "26 Kecamatan",
+        "deskripsi": "Kabupaten Kediri terdiri dari 26 kecamatan, 1 kelurahan, dan 343 desa (dari total 666 kecamatan, 777 kelurahan, dan 7.724 desa di Jawa Timur)",
+        "gambar": "../img/kediri.png"
+      },
+    {
+        "nama": "Kabupaten Lamongan",
+        "bupati": "Dr. H. Yuhronur Efendi, MBA ",
+        "dinas": "Dinas Lingkungan Hidup Kab. Lamongan",
+        "link": "https://lamongankab.go.id/beranda/dlh",
+        "luaswilayah": "1.782,05 KM",
+        "kecamatan": "27 Kecamatan",
+        "deskripsi": "Selain memiliki destinasi wisata yang beragam, Lamongan juga terkenal dengan kuliner khasnya. Saking terkenalnya, Lamongan pun mendapat julukan Kota Soto",
+        "gambar": "../img/lamongan.png"
+      },
+    {
+        "nama": "Kabupaten Lumajang",
+        "bupati": "H. Thoriqul Haq, S.Ag, MML",
+        "dinas": "Dinas Lingkungan Hidup Kab. Lumajang",
+        "link": "https://www.dlh.lumajangkab.go.id/",
+        "luaswilayah": "1.790,90 KM",
+        "kecamatan": "21 Kecamatan",
+        "deskripsi": "Kabupaten Lumajang merupakan salah satu daerah yang berada di wilayah bagian selatan Propinsi Jawa Timur",
+        "gambar": "../img/lumajang.png"
+      },
+    {
+        "nama": "Kabupaten Madiun",
+        "bupati": "H. Ahmad Dawami Ragil Saputro, S.Sos.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Madiun",
+        "link": "https://dlh.madiunkab.go.id/",
+        "luaswilayah": "1.037,58 KM",
+        "kecamatan": "15 Kecamatan",
+        "deskripsi": "Kabupaten Madiun dilintasi jalur utama Surabaya-Yogyakarta, dan kabupaten ini juga dilintasi jalur kereta api lintas selatan Pulau Jawa",
+        "gambar": "../img/madiun.png"
+      },
+    {
+        "nama": "Kabupaten Magetan",
+        "bupati": "Dr. Drs. Suprawoto, S.H., M.Si.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Magetan",
+        "link": "https://dlh.magetan.go.id/",
+        "luaswilayah": "688,84 KM",
+        "kecamatan": "18 Kecamatan",
+        "deskripsi": "Kabupaten ini berbatasan dengan Kabupaten Ngawi di utara, Kota Madiun dan Kabupaten Madiun di timur, Kabupaten Ponorogo, serta Kabupaten Karanganyar dan Kabupaten Wonogiri, Jawa Tengah",
+        "gambar": "../img/magetan.png"
+      },
+        
+    {
+        "nama": "Kabupaten Malang",
+        "bupati": "Drs. H. M. Sanusi, M.M.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Malang",
+        "link": "https://lh.malangkab.go.id/pd/",
+        "luaswilayah": "3.530,65 KM",
+        "kecamatan": "33 Kecamatan",
+        "deskripsi": "Kabupaten Malang adalah salah satu Kabupaten di Indonesia yang terletak di Provinsi Jawa Timur dan merupakan Kabupaten kedua yang terluas wilayahnya setelah Kabupaten Banyuwangi ",
+        "gambar": "../img/malang.png"
+      },
+    {
+        "nama": "Kabupaten Mojokerto",
+        "bupati": "dr. Ikfina Fahmawati, M.Si.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Mojokerto",
+        "link": "http://dlh.mojokertokab.go.id/",
+        "luaswilayah": "717,83 KM",
+        "kecamatan": "18 Kecamatan",
+        "deskripsi": "Kabupaten Mojokerto merupakan salah satu kabupaten di Provinsi Jawa Timur, dimana luas wilayah seluruhnya adalah 969.360 Km2 atau sekitar 2,09% dari luas Provinsi Jawa Timur",
+        "gambar": "../img/mojokerto.png"
+      },
+    {
+        "nama": "Kabupaten Nganjuk",
+        "bupati": "Dr. Drs. H. Marhaen Djumadi, S.E., S.H., M.M., MBA.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Nganjuk",
+        "link": "https://dlh.nganjukkab.go.id/",
+        "luaswilayah": "1.224,25 KM",
+        "kecamatan": "20 Kecamatan",
+        "deskripsi": "Kabupaten Nganjuk merupakan salah satu penghasil bawang merah di Jawa Timur. Bahkan, wilayah ini berada di urutan nomor lima dari 10 besar penghasil bawang merah di Indonesia",
+        "gambar": "../img/nganjuk.png"
+      },
+    {
+        "nama": "Kabupaten Ngawi",
+        "bupati": "H. Ony Anwar Harsono, S.T., M.H.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Ngawi",
+        "link": "https://dlh.ngawikab.go.id/",
+        "luaswilayah": "1.295,98 KM",
+        "kecamatan": "19 Kecamatan",
+        "deskripsi": "Kabupaten Ngawi terletak di wilayah barat Propinsi Jawa Timur yang berbatasan langsung dengan Propinsi Jawa Tengah. ",
+        "gambar": "../img/ngawi.png"
+      },
+    {
+        "nama": "Kabupaten Pacitan",
+        "bupati": "Indrata Nur Bayuaji, S.S.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Pacitan",
+        "link": "https://dlh.pacitankab.go.id/",
+        "luaswilayah": "1.389,92 KM",
+        "kecamatan": "12 Kecamatan",
+        "deskripsi": "Pacitan merupakan salah satu dari 38 Kabupaten di Propinsi Jawa Timur yang terletak di bagian Selatan barat daya",
+        "gambar": "../img/pacitan.png"
+      },
+        
+    {
+        "nama": "Kabupaten Pamekasan",
+        "bupati": "H. Baddrut Tamam, S.Psi.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Pamekasan",
+        "link": "https://dlh.pamekasankab.go.id/",
+        "luaswilayah": "792,24 KM",
+        "kecamatan": "13 Kecamatan",
+        "deskripsi": "Kabupaten Pamekasan mendapat tambahan julukan baru selain kabupaten batik, yakni kabupaten Plt (pelaksana tugas) pejabat",
+        "gambar": "../img/pamekasan.png"
+      },
+    {
+        "nama": "Kabupaten Pasuruan",
+        "bupati": "H. M. Irsyad Yusuf, S.E., M.M.A..",
+        "dinas": "Dinas Lingkungan Hidup Kab. Pasuruan",
+        "link": "http://dlh.pasuruankab.go.id/",
+        "luaswilayah": "1.474,02 KM",
+        "kecamatan": "24 Kecamatan",
+        "deskripsi": "Dalam PP itu ditegaskan, bahwa ibukota Kabupaten Pasuruan dipindahkan dari wilayah Kota Pasuruan ke wilayah Kecamatan Bangil, Kabupaten Pasuruan, Provinsi Jawa Timur",
+        "gambar": "../img/pasuruan.png"
+      },
+    {
+        "nama": "Kabupaten Ponorogo",
+        "bupati": "H. Sugiri Sancoko, S.E., M.M.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Ponorogo",
+        "link": "https://dlh.ponorogo.go.id/",
+        "luaswilayah": "1.305,70 KM",
+        "kecamatan": "21 Kecamatan",
+        "deskripsi": "Kabupaten Ponorogo adalah sebuah daerah di wilayah Provinsi Jawa Timur yang berada pada posisi kurang lebih 200 Km sebelah barat daya ibu kota propinsi (Surabaya)",
+        "gambar": "../img/ponorogo.png"
+      },
+    {
+        "nama": "Kabupaten Probolinggo",
+        "bupati": "Drs. H. Ahmad Timbul Prihanjoko ",
+        "dinas": "Dinas Lingkungan Hidup Kab. Probolinggo",
+        "link": "https://dlh.probolinggokab.go.id/",
+        "luaswilayah": "1.696,21 KM",
+        "kecamatan": "24 Kecamatan",
+        "deskripsi": "Sesuai julukannya, Bayuangga, Kota Probolinggo adalah kota bayu atau angin dan angga atau anggur dan mangga",
+        "gambar": "../img/probolinggo.png"
+      },
+    {
+        "nama": "Kabupaten Sampang",
+        "bupati": "H. Slamet Junaidi, S.IP  ",
+        "dinas": "Dinas Lingkungan Hidup Kab. Sampang",
+        "link": "https://sampangkab.go.id/dinas-lingkungan-hidup/",
+        "luaswilayah": "1.233,08 KM",
+        "kecamatan": "14 Kecamatan",
+        "deskripsi": "Sampang adalah ibu kota Kabupaten Sampang yang sekaligus menjadi pusat pemerintahan dan perekonomian dari Kabupaten Sampang",
+        "gambar": "../img/sampang.png"
+      },
+        
+    {
+        "nama": "Kabupaten Sidoarjo",
+        "bupati": "H. Ahmad Muhdlor Ali, S.IP. ",
+        "dinas": "Dinas Lingkungan Hidup Kab. Sidoarjo",
+        "link": "https://dlhk.sidoarjokab.go.id/",
+        "luaswilayah": "634,38 KM",
+        "kecamatan": "18 Kecamatan",
+        "deskripsi": "Sidoarjo juga terkenal dengan sebutan kota delta karena ada diantara 2 sungai besar pecahan dari sungai brantas yaitu sungai mas dan sungai porong. Sidoarjo berada di selatan Surabaya",
+        "gambar": "../img/sidoarjo.png"
+      },
+    {
+        "nama": "Kabupaten Situbondo",
+        "bupati": "Drs. H. Karna Suswandi, M.M.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Situbondo",
+        "link": "https://dlh.Situbondokab.go.id/",
+        "luaswilayah": "1.669,87 KM",
+        "kecamatan": "17 Kecamatan",
+        "deskripsi": "Situbondo mempunyai pelabuhan Panarukan yang terkenal sebagai ujung timur dari Jalan Raya Pos Anyer-Panarukan di pulau Jawa yang dibangun oleh Daendels pada era kolonial Belanda",
+        "gambar": "../img/situbondo.png"
+      },
+    {
+        "nama": "Kabupaten Sumenep",
+        "bupati": "Achmad Fauzi, S.H., M.H.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Sumenep",
+        "link": "https://dlh.sumenepkab.go.id/",
+        "luaswilayah": "1.998,54 KM",
+        "kecamatan": "27 Kecamatan",
+        "deskripsi": "Kabupaten Sumenep termasuk dalam wilayah Provinsi Jawa Timur. Kabupaten Sumenep terdiri dari 27 wilayah kecamatan, 332 desa/kelurahan dengan luas wilayah keseluruhan mencapai 2,093.47 km2",
+        "gambar": "../img/sumenep.png"
+      },
+    {
+        "nama": "Kabupaten Trenggalek",
+        "bupati": "H. Mochamad Nur Arifin",
+        "dinas": "Dinas Lingkungan Hidup Kab. Trenggalek",
+        "link": "https://pkplh.trenggalekkab.go.id/",
+        "luaswilayah": "1.147,22 KM",
+        "kecamatan": "14 Kecamatan",
+        "deskripsi": "Kabupaten Trenggalek merupakan salah satu Kabupaten di Provinsi Jawa Timur yang terletak di bagian selatan dari wilayah Provinsi Jawa Timur",
+        "gambar": "../img/trenggalek.png"
+      },
+    {
+        "nama": "Kabupaten Tuban",
+        "bupati": "Aditya Halindra Faridzky, S.E.",
+        "dinas": "Dinas Lingkungan Hidup Kab. Tuban",
+        "link": "https://dlhp.tubankab.go.id/",
+        "luaswilayah": "1.834,15 KM",
+        "kecamatan": "20 Kecamatan",
+        "deskripsi": "Tuban disebut juga sebagai Kota Wali karena Tuban adalah salah satu kota yang menjadi pusat penyebaran agama Islam. Tuban juga dijuluki sebagai kota tua, karena daerah Tuban terkenal penghasil minuman (tuak & legen)",
+        "gambar": "../img/tuban.png"
+      },
+    {
+        "nama": "Kabupaten Tulungagung",
+        "bupati": "Drs. H. Maryoto Birowo, M.M. ",
+        "dinas": "Dinas Lingkungan Hidup Kab. Tulungagung",
+        "link": "https://dlh.tulungagung.go.id/",
+        "luaswilayah": "1.055,65 KM",
+        "kecamatan": "19 Kecamatan",
+        "deskripsi": "Tulungagung terkenal sebagai satu dari beberapa daerah penghasil marmer terbesar di Indonesia, dan terletak 154 km barat daya Kota Surabaya, ibu kota Provinsi Jawa Timur",
+        "gambar": "../img/tulungagung.png"
+      },
+    {
+        "nama": "Kota Batu",
+        "bupati": "Hj. Dra. Dewanti Rumpoko, M.Si. ",
+        "dinas": "Dinas Lingkungan Hidup Kota Batu",
+        "link": "https://awase.dlh.batukota.go.id/",
+        "luaswilayah": "136,74 KM",
+        "kecamatan": "3 Kecamatan",
+        "deskripsi": "Kota Batu adalah sebuah kota di Provinsi Jawa Timur, Indonesia terbentuk pada tahun 2001 sebagai pecahan dari Kabupaten Malang",
+        "gambar": "../img/batu.png"
+      },
+    {
+        "nama": "Kota Blitar",
+        "bupati": "Drs. H. Santoso, M.Pd.",
+        "dinas": "Dinas Lingkungan Hidup Kota Blitar",
+        "link": "http://dlh.blitarkota.go.id/",
+        "luaswilayah": "32,57 KM",
+        "kecamatan": "3 Kecamatan",
+        "deskripsi": "Blitar disebut juga sebagai Kota Proklamator. Alasannya adalah karena di kota ini terdapat makam Proklamator Kemerdekaan sekaligus Presiden Pertama RI yaitu Soekarno",
+        "gambar": "../img/blitar2.png"
+      },
+    {
+        "nama": "Kota Kediri",
+        "bupati": "Abdullah Abu Bakar, S.E.",
+        "dinas": "Dinas Lingkungan Hidup Kota Kediri",
+        "link": "https://dlhkp.kedirikota.go.id/",
+        "luaswilayah": "63,40 KM",
+        "kecamatan": "3 Kecamatan",
+        "deskripsi": "Kota Kediri identik dengan tahu takwa, sehingga dikenal dengan sebutan Kota tahu. Tahu takwa Kediri terkenal dengan cita rasa khasnya, tahu memiliki tekstur padat dan kenyal",
+        "gambar": "../img/kediri2.png"
+      },
+    {
+        "nama": "Kota Madiun",
+        "bupati": "Drs. H. Maidi, S.H., M.M., M.Pd.",
+        "dinas": "Dinas Lingkungan Hidup Kota Madiun",
+        "link": "https://dlh.madiunkota.go.id/",
+        "luaswilayah": "33,29 KM",
+        "kecamatan": "3 Kecamatan",
+        "deskripsi": "Madiun memiliki julukan Kota Gadis, Kota Brem, Kota Pelajar, Kota Sepur, Kota Pecel, Kota Budaya, Kota Sastra, dan Kota Industri",
+        "gambar": "../img/madiun2.png"
+      },
+    {
+        "nama": "Kota Malang",
+        "bupati": "Drs. H. Sutiaji",
+        "dinas": "Dinas Lingkungan Hidup Kota Malang",
+        "link": "https://dlh.malangkota.go.id/",
+        "luaswilayah": "145,28 KM",
+        "kecamatan": "5 Kecamatan",
+        "deskripsi": "Kota Malang merupakan salah satu kota tujuan wisata di dan kota terbesar kedua di Jawa Timur setelah Surabaya. Kota Malang dikenal dengan julukan kota pelajar, atau banyak juga yang menjuluki sebagai kota bunga",
+        "gambar": "../img/malang2.png"
+      },
+    {
+        "nama": "Kota Mojokerto",
+        "bupati": "Hj. Ika Puspitasari, S.E.",
+        "dinas": "Dinas Lingkungan Hidup Kota Mojokerto",
+        "link": "https://dlh.mojokertokota.go.id/",
+        "luaswilayah": "16,47 KM",
+        "kecamatan": "3 Kecamatan",
+        "deskripsi": "Mojokerto merupakan kota kerajaan yang terkenal dengan Bumi Mojopahit, selain menarik karena banyak situs sejarah juga merupakan tempat Bung Karno menuntut ilmu semasa kecil",
+        "gambar": "../img/mojokerto.png"
+      },
+    {
+        "nama": "Kota Pasuruan",
+        "bupati": "Drs. K.H. Saifullah Yusuf",
+        "dinas": "Dinas Lingkungan Hidup Kota Pasuruan",
+        "link": "https://dlhkp.pasuruankota.go.id/",
+        "luaswilayah": "35,29 KM",
+        "kecamatan": "4 Kecamatan",
+        "deskripsi": "Pasuruan adalah sebuah kota pelabuhan kuno. Pada zaman Kerajaan Airlangga, Pasuruan sudah dikenal dengan sebutan Paravan",
+        "gambar": "../img/pasuruan2.png"
+      },
+    {
+        "nama": "Kota Probolinggo",
+        "bupati": "Habib Hadi Zainal Abidin",
+        "dinas": "Dinas Lingkungan Hidup Kota Probolinggo",
+        "link": "https://dlh.probolinggokota.go.id/",
+        "luaswilayah": "56,67 KM",
+        "kecamatan": "5 Kecamatan",
+        "deskripsi": "Sesuai julukannya, Bayuangga, Kota Probolinggo adalah kota bayu atau angin dan angga atau anggur dan mangga",
+        "gambar": "../img/probolinggo2.png"
+      },
+    {
+        "nama": "Kota Surabaya",
+        "bupati": "Eri Cahyadi, S.T., M.T.",
+        "dinas": "Dinas Lingkungan Hidup Kota Surabaya",
+        "link": "https://lh.surabaya.go.id/weblh/",
+        "luaswilayah": "350,54 KM",
+        "kecamatan": "31 Kecamatan",
+        "deskripsi": "Kota Surabaya memiliki julukan sebagai kota Pahlawan, sebuah sebutan karena ketika dalam masa revolusi kemerdekaan Indonesia telah terjadi pertempuran hebat antara rakyat Surabaya dengan tentara penjajah",
+        "gambar": "../img/surabaya.png"
+      }
+        
+    ]
+  }
+  

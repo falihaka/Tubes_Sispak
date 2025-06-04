@@ -1,0 +1,866 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  /* background-image: url(../img/bg.png); */
+  background-color: #68b984;
+  width: 100%;
+  overflow-x: hidden;
+  background-position: center;
+  background-size: cover;
+}
+/* keyframes */
+@keyframes change {
+  25% {
+    background-image: url("../img/sdabg.jpg");
+    background-position: bottom;
+  }
+  70% {
+    background-image: url("../img/cr4-kota.jpg");
+    background-position: top;
+  }
+  100% {
+    background-image: url("../img/blitarbg.jpeg");
+    background-position: bottom;
+  }
+}
+
+/* carousel */
+.cr {
+  width: 100%;
+  height: 45vh;
+  margin: auto;
+  background-image: url("../img/cr3-kota.jpg");
+  background-position: center;
+  background-size: cover;
+  animation: change 30s infinite ease-in;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cr a {
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Patua One", cursive;
+  color: red;
+  margin-right: 60px;
+  background-color: white;
+}
+.header2{
+  margin-top: 30px;
+}
+.user {
+  width: 300px;
+  height: 30vh;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+
+.user h1 {
+  color: white;
+  margin-bottom: 10px;
+  font-family: "Patua One", cursive;
+}
+.user p {
+  color: white;
+}
+
+.user button {
+  padding: 10px;
+  border: 0px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.user button:hover {
+  padding: 12px;
+  transition: all 0.5s;
+}
+
+.swiper {
+  width: 100%;
+  height: 500px;
+  cursor: grab;
+  /* background-color: #a6e3ca; */
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 500px;
+}
+
+.materi {
+  width: 80%;
+  height: 320px;
+  /* background-color: #a6e3ca; */
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 2s ease;
+}
+.crudmateri {
+  width: 100%;
+  /* background-color: #68b984; */
+  height: 40px;
+  display: flex;
+  justify-content: end;
+  /* margin-top: 20px; */
+}
+.crudmateri i {
+  background-color: white;
+  border-radius: 20px;
+  height: 28px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+.swiper-slide {
+  /* background-color: aliceblue; */
+  width: 20%;
+}
+.swiper h2 {
+  margin-left: 40px;
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
+}
+.gambar {
+  width: 100%;
+  height: 150px;
+  background-color: aquamarine;
+  border-radius: 15px 15px 0px 0px;
+}
+.gambar2 {
+  width: 100%;
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  filter: brightness(50%);
+  position: relative;
+}
+.img1 {
+  background-image: url("../img/sampah2.jpg");
+}
+.img2 {
+  background-image: url("../img/sampah1.jpg");
+}
+.img3 {
+  background-image: url("../img/sampah3.jpg");
+}
+.img4 {
+  background-image: url("../img/sampah8.jpg");
+}
+.img5 {
+  background-image: url("../img/sampah6.jpg");
+  /* background-position: bottom; */
+}
+.img6 {
+  background-image: url("../img/sampah5.jpg");
+}
+.img7 {
+  background-image: url("../img/sampah7.jpg");
+}
+.img8 {
+  background-image: url("../img/sampah4.jpg");
+}
+/* .materi button {
+  margin-bottom: 20px;
+  width: 150px;
+  height: 35px;
+  border: 0px;
+  background-color: white;
+  border-radius: 15px;
+} */
+.penjelasan {
+  position: absolute;
+  width: 80%;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* background-color: aliceblue; */
+}
+.garis {
+  background-color: #a6e3ca;
+  width: 80%;
+  height: 3px;
+  margin-bottom: 10px;
+}
+.garis2 {
+  background-color: #d2d8d6;
+  width: 3px;
+  /* height: 100px; */
+  margin-bottom: 10px;
+}
+.materi h3 {
+  color: white;
+  margin-right: 20px;
+  font-family: "Patua One", cursive;
+}
+.materi p {
+  color: white;
+  text-align: left;
+  margin-left: 10px;
+  width: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.judul1 {
+  display: flex;
+}
+.judul1 button {
+  border: 0px;
+  border-radius: 20px;
+  height: 45px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.judul1 button:hover {
+  background-color: rgb(214, 236, 255);
+}
+.judul2 {
+  display: flex;
+}
+.judul2 button {
+  border: 0px;
+  border-radius: 20px;
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.judul2 button:hover {
+  background-color: rgb(214, 236, 255);
+}
+.judul2 h2 {
+  color: white;
+  padding-top: 10px;
+}
+.user button:hover {
+  background-color: rgb(214, 236, 255);
+}
+.penjelasan h3 {
+  font-size: 2vw;
+}
+.penjelasan p {
+  font-size: 1vw;
+}
+
+.penjelasanmateri {
+  height: 200px;
+  margin-top: 80px;
+}
+
+.sosmed {
+  margin: auto;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.sosmed i {
+  cursor: pointer;
+  color: white;
+  border-radius: 50px;
+}
+.sosmed i:hover {
+  color: #d2d8d6;
+}
+.emailfot {
+  width: 170px;
+  margin: auto;
+  padding-top: 10px;
+}
+.emailfot p {
+  color: white;
+
+}
+/* form laporan */
+.formlaporan {
+  position: fixed;
+  width: 50%;
+  background-color: white;
+  /* z-index: 12; */
+  top: 2%;
+  left: 25%;
+  display: flex;
+  opacity: 0;
+  z-index: -1;
+  border-radius: 10px 10px 10px 10px;
+  /* transition: all 1s; */
+}
+.desklapor {
+  height: 70px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.modal-body2 {
+width: 95%; 
+margin:auto; 
+margin-top:10px; 
+margin-bottom:10px;;
+}
+.formlaporan p {
+  font-family: "Secular One", sans-serif;
+  color: aliceblue;
+}
+.form2 {
+  width: 100%;
+  /* background-color: aqua; */
+  /* background-color: #ffffff; */
+  /* background-color: rgb(0, 122, 43); */
+}
+.tombollapor {
+  background-color: #68b984;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.form2 h3 {
+  color: white;
+}
+.profil {
+  /* margin-right: 20px; */
+  width: 200px;
+  /* background-color: aliceblue; */
+}
+.gbform i {
+  background-color: rgb(185, 185, 185);
+  border-radius: 500px;
+  padding: 10px;
+  padding-top: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+/* card */
+.cardwrapper {
+  display: flex;
+  /* background-color: aliceblue; */
+  flex-wrap: wrap;
+}
+.upload {
+  width: 300px;
+  height: 350px;
+  background-color: antiquewhite;
+  margin-right: 5px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.kartuupload {
+  margin-left:20px;
+  margin-bottom:20px;
+  /* margin-right:15px;  */
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  width: 400px;
+}
+/* tambahan */
+.hilang {
+  transform: translateY(-100%);
+  transition: all 0.5s;
+  /* display: none; */
+  /* transition: all 1s; */
+}
+.card img {
+  width: 100%;
+  height: 200px;
+}
+.judulcard{
+  display: flex;
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.muncul {
+  transform: translateY(0);
+  opacity: 1;
+  z-index: 12;
+  transition: all 1s;
+}
+.screen {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.533);
+  position: fixed;
+  z-index: -12;
+  opacity: 0;
+}
+.screenmuncul {
+  z-index: 2;
+  opacity: 1;
+}
+.close {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  height: 50px;
+  padding-top: 10px;
+  position: absolute;
+  background-color: #68b984;
+  border-radius: 10px 10px 0px 0px;
+}
+.close i {
+  cursor: pointer;
+  margin-right: 20px;
+}
+.close h3 {
+  /* cursor: pointer; */
+  margin-left: 20px;
+  font-size: 20px;
+}
+.isiform {
+  padding-top: 60px;
+  width: 95%;
+  margin: auto;
+}
+.box{
+  position: relative;
+}
+
+.input {
+  padding: 10px;
+  width: 80px;
+  height: 80px;
+  background: none;
+  border: 4px solid #ffd52d;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-family: Comic Sans MS;
+  font-size: 26px;
+  color: #ffd52d;
+  outline: none;
+  transition: .5s;
+}
+.carimateri {
+  margin-left: 40px;
+  margin-top: 20px;
+  background-color: white;
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+}
+.carimateri i {
+  margin-left: 10px;
+  margin-top: 13px;
+}
+.carimateri input {
+  border: 0px;
+  width: 65%;
+  padding: 7px;
+}
+.carimateri button {
+  width: 100px;
+  border-radius: 20px;
+  border: 0px;
+  color: white;
+  padding: 5px;
+  background-color: #027893;
+}
+.carimateri:hover button {
+  width: 100px;
+  border-radius: 20px;
+  border: 0px;
+  color: white;
+  padding: 5px;
+  background-color: #13b0d3;
+}
+.carikota:hover button {
+  background-color: #13b0d3;
+}
+.carikota {
+  /* margin-left: 40px; */
+  /* margin-top: 40px; */
+  background-color: rgb(50, 161, 225);
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  margin: auto;
+}
+.carikota i {
+  margin-top: 13px;
+  color: white;
+}
+.carikota input {
+  border: 0px;
+  width: 65%;
+  padding: 7px;
+  background-color: transparent;
+  color: white;
+}
+.carikota input::placeholder {
+  color: rgba(255, 255, 255, 0.61);
+
+}
+.carikota button {
+  width: 100px;
+  border-radius: 20px;
+  border: 0px;
+  color: white;
+  padding: 5px;
+  background-color: #027893;
+}
+
+.batas {
+  margin: auto;
+  width: 100%;
+  /* background-color: #181c1a; */
+  margin-top: 20px;
+  background-color: black;
+  margin-bottom: 20px;
+  height: 2px;
+}
+.komentar {
+  margin: auto;
+}
+.komentar input {
+  border-radius: 10px;
+}
+.batas1 {
+  width: 100px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #07968f;
+  margin-right: 10px;
+  margin: auto;
+}
+.uploadlogo {
+  margin-left: 40px;
+}
+.card-footer i {
+  cursor: pointer;
+}
+.card-body {
+  height: 280px;
+}
+.fa-trash:hover::before {
+  content: "Hapus";
+  font-size: 10px;
+}
+.fa-pen-to-square:hover::before {
+  content: "Ubah";
+  font-size: 10px;
+}
+.footer {
+  width: 100%;
+  height: 13vh;
+  margin-top: 20px;
+  background-color: #027893;
+}
+/* kota */
+.kotajatim {
+  margin-top: 20px;
+  margin: auto;
+  width: 65%;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  top: -80px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.judul3 {
+  line-height: 5px;
+}
+.penjelasanweb {
+  width: 100%;
+  background-color: #0f9fc0;
+  margin-top: 10px;
+  display: flex;
+}
+.isijelas {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+.isijelas h2 {
+  margin-top: 20px;
+}
+.isijelas p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.isijelas img {
+  width: 180px;
+  height: 25vh;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.isijelas2 {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  padding-bottom: 52.5px;
+}
+.isijelas2 img {
+  width: 200px;
+  margin-right: 20px;
+}
+.kotajatim h3 {
+  margin: auto;
+  margin-bottom: 10px;
+}
+.judul4 {
+  color: white;
+}
+.judul4 p {
+  text-align: left;
+  width: 500px;
+}
+.judul4 h2 {
+  text-align: left;
+}
+.gambarkota2 img{
+  width: 70%;
+}
+
+/* komentar */
+.komentar {
+  height: 100px;
+}
+
+.remember {
+  display: flex;
+}
+.remember input {
+  width: 10px;
+  height: 10px;
+}
+
+.row {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: left;
+  margin: auto;
+  width: 100%;
+  margin-top:20px;
+}
+.card {
+  width: 340px;
+  margin-bottom:20px;
+}
+.halamanbungkus {
+  margin-left: 40px;
+  margin-top: 20px;
+  display: flex;
+}
+.halamanbungkus p{
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.halamanbungkus a{
+  margin-right: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+  color: black;
+  margin-top: 2px;
+  text-decoration: none;
+}
+
+.halamanbungkus a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255) ;
+}
+
+.berhasil p {
+  border: 1px greenyellow;
+}
+
+.tombollapor {
+  width: 150px;
+}
+.tombolpenting {
+  width: 150px;
+}
+/* laporan */
+@media screen and (max-width: 1025px) {
+  
+  .isijelas p {
+    text-align: center;
+  }
+  .isijelas h2 {
+    text-align: center;
+  }
+  .card {
+    max-width:1000px;
+  }
+
+}
+
+@media screen and (max-width: 830px) {
+
+  .materi h3 {
+    font-size: 20px;
+  }
+  .materi button {
+    width: 100px;
+  }
+  .penjelasan h3 {
+    font-size: 17px;
+  }
+  .penjelasan p {
+    font-size: 12px;
+  }
+  .formlaporan {
+    width: 75%;
+    left: 11%;
+  }
+  .kotajatim {
+    width: 80%;
+    top: -30px;
+  }
+  .isijelas2 {
+    padding-bottom: 89.5px;
+  }
+  .isijelas p {
+    text-align: center;
+  }
+  .isijelas h2 {
+    text-align: center;
+  }
+  .gambarkota2 img{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .card {
+    width: 300px;
+    margin: auto;
+  }
+  .gambarkota2 img{
+    width: 50%;
+  }
+  }
+@media screen and (max-width: 640px) {
+  .card {
+    width:400px;
+  }
+}
+@media screen and (max-width: 500px) {
+
+  .materi h3 {
+    font-size: 18px;
+  }
+  .swiper h2 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .penjelasan h3 {
+    font-size: 17px;
+  }
+  .penjelasan p {
+    font-size: 12px;
+  }
+  .judul1 button {
+    width: 145px;
+    font-size: 13px;
+  }
+  .judul1 h2 {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .judul2 button {
+    width: 145px;
+    font-size: 13px;
+    padding: 0px;
+  }
+  .judul2 h2 {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .formlaporan {
+    width: 85%;
+    left: 7%;
+  }
+  .card {
+    width:350px;
+  }
+  .carimateri {
+    width: 75%;
+  }
+  .carimateri input{
+    width: 50%;
+  }
+  .carikota {
+    width: 250px;
+  }
+  .carikota button{
+    width: 70px;
+  }
+  .carikota input{
+    width: 55%;
+  }
+  .judul3 h3{
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  .judul3 p{
+    font-size: 15px;
+  }
+  .isijelas p {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+  }
+  .isijelas h2 {
+    text-align: center;
+  }
+  .isijelas img {
+    width: 100px;
+    height: 18vh;
+    margin-left: 10px;
+  }
+  .gambarkota2 img{
+    width: 40%;
+  }
+  .header {
+    width: 80%;
+  }
+  .tombollapor {
+    width: 120px;
+  }
+  .swiper {
+    height: 500px;
+  }
+  .swiper-slide {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .carimateri {
+    width: 70%;
+  }
+  .carimateri input{
+    width: 40%;
+  }
+  .cr a {
+    margin-right: 0px;
+  }
+  .judul1 h2 {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+}

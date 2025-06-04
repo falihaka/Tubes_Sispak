@@ -1,0 +1,108 @@
+<?php
+session_start();
+// jika tidak ada session login
+
+if (!isset($_SESSION["login"])) {
+    header("Location: index.php");
+}
+
+require 'function.php';
+$id = $_GET["id"];
+
+// ambil tabel materiweb
+$materi = query("SELECT * FROM materiweb WHERE id = $id");
+
+
+
+
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styleubah.css">
+</head>
+
+<body>
+    <div class="gelap"></div>
+    <div class="container">
+        <div class="wrapper">
+            <form action="" method="post" enctype="multipart/form-data">
+                <div class=" modal-header">
+                    <h1 style="color:white; margin:auto;" class="modal-title fs-5" id="exampleModalLabel">UBAH MATERI</h1>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <input type="hidden" name="id" value="<?= $materi[0]["id"]; ?>">
+                <input type="hidden" name="gambarlama" value="<?= $materi[0]["gambar"]; ?>">
+                <div class=" mb-3">
+                    <i style="color: white;" class="fa-sharp fa-solid fa-heading"></i>
+                    <label style="color: white;" class="form-label tambahjudul">Judul</label>
+                    <input type="text" class="form-control" value="<?= $materi[0]["judul"]; ?>" required autocomplete="off" name="judul" placeholder="Nama">
+                </div>
+                <div class="mb-3">
+                    <i style="color: white;" class=" fa-solid fa-clipboard fa-1x deskripsi"></i>
+                    <label style="color: white;" class="form-label tambahdeskripsi">Deskripsi Materi</label>
+                    <textarea type="text" class="form-control" required autocomplete="off" name="deskripsi" placeholder="Deskripsikan materi"><?= $materi[0]["deskripsi"]; ?></textarea>
+
+                </div>
+                <input type="hidden" value="<?= $materi[0]["gambar"]; ?>" class="bg">
+                <div class="mb-3">
+                    <i style="color: white;" class=" fa-solid fa-camera-retro fa-1x gambar3"></i>
+                    <label style="color: white;" class="form-label tambahgambar">Gambar</label>
+                    <input type="file" class="form-control gambar" autocomplete="off" name="gambar" placeholder="Masukan gambar">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary kembali" data-bs-dismiss="modal">Kembali</button>
+                    <button style="margin-left:20px;" type="submit" name="tombolubah" class="btn btn-primary">Simpan Materi</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="../js/ubah.js"></script>
+    <script src="../alert/dist/sweetalert2.all.min.js"></script>
+
+    <?php
+    // ketika tombol ubah di pencet
+    if (isset($_POST["tombolubah"])) {
+
+        if (ubah1($_POST) > 0) {
+            echo "
+      <script>
+      Swal.fire({
+          icon: 'success',
+          title: 'Materi berhasil di ubah',
+          text: 'Halaman akan di muat ulang',
+          showConfirmButton: false,
+        });
+        setInterval( () => {
+          window.location.href = 'beranda.php';
+       }, 2000);
+      </script>
+      ";
+        } else {
+            echo "
+        <script>alert('Materi gagal di ubah');
+        document.location.href = 'beranda.php';
+      
+      </script>
+      ";
+        }
+    }
+
+    ?>
+</body>
+
+</html>
